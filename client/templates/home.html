@@ -1,0 +1,13 @@
+---
+name: home
+url: /
+---
+
+<div ng-controller="mainCtrl" class="grid-container">
+  <h1 id="apod_title"></h1>
+  <img id="apod_img_id">
+  <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
+  <h6 ng-bind-html="apod.copyrightHTML" id="apod_copyright"></h6>
+  <h2 id="apod_date"></h2>
+  <p id="apod_explanation"></p>
+</div>
